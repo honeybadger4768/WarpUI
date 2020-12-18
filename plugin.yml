@@ -1,0 +1,13 @@
+#name, main, version and api are required
+name: warpui
+main: FurkanC\main
+version: 1.0.0
+api: 3.15.4
+
+author: FurkanC
+description: warpui
+
+commands:
+ warp:
+  description: Warp komutu
+  usage: "/warp"
