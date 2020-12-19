@@ -37,7 +37,19 @@ class main extends PluginBase{
         //oyuncunun ışınlanacağı koordinatlar
         $oyuncu->teleport(new Position(x, y, z, Server::getInstance()->getLevelByName("world")));
         break;
-    
+    case 1:
+          //Oyuncu ışınlanınca göndereceği mesaj
+        $oyuncu->sendMessage("Bolge-2");
+        //oyuncunun ışınlanacağı koordinatlar
+        $oyuncu->teleport(new Position(x, y, z, Server::getInstance()->getLevelByName("world")));
+        break;
+      case 2:
+          //Oyuncu ışınlanınca göndereceği mesaj
+        $oyuncu->sendMessage("Bolge-3");
+        //oyuncunun ışınlanacağı koordinatlar
+        $oyuncu->teleport(new Position(x, y, z, Server::getInstance()->getLevelByName("world")));
+        break;
+      
     }
     });
   $form->setTitle("WarpUI");
